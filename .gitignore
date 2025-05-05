@@ -1,9 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 node_modules
 =======
+=======
+>>>>>>> aeaa4fd22502ced24e1f685d03be77063feaae23
 node_modules/
 dist/
 build/
 .env
 .DS_Store
+<<<<<<< HEAD
 >>>>>>> a98f0b0156f632bc1942f30f2d1ad49577470bf6
+=======
+>>>>>>> aeaa4fd22502ced24e1f685d03be77063feaae23
