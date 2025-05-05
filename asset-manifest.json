@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bharath-portfolio/static/css/main.b1a3afe5.css",
+    "main.js": "/bharath-portfolio/static/js/main.d4b37a60.js",
+    "index.html": "/bharath-portfolio/index.html",
+    "main.b1a3afe5.css.map": "/bharath-portfolio/static/css/main.b1a3afe5.css.map",
+    "main.d4b37a60.js.map": "/bharath-portfolio/static/js/main.d4b37a60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1a3afe5.css",
+    "static/js/main.d4b37a60.js"
+  ]
+}
