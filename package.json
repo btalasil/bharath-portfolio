@@ -1,14 +1,22 @@
 {
   "name": "bharath-pro-portfolio",
   "version": "1.0.0",
+  "homepage": ".",
   "private": true,
-  "homepage": "https://btalasil.github.io/bharath-portfolio",
   "dependencies": {
+    "@tsparticles/engine": "^3.9.1",
+    "@tsparticles/path-simplex-noise": "^3.9.1",
+    "@tsparticles/plugin-polygon-mask": "^3.9.1",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.9.1",
     "framer-motion": "^10.12.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.5.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^3.9.1",
+    "tsparticles-engine": "^2.12.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
