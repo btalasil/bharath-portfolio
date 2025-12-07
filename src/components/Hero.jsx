@@ -137,7 +137,7 @@ export default function Hero() {
             "
           >
             <img
-              src={process.env.PUBLIC_URL + "/bharath.jpg"}
+              src={process.env.PUBLIC_URL + "/bharath.jpeg"}
               alt="Bharath Kumar"
               className="w-full h-full object-cover rounded-2xl"
             />
