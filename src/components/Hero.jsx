@@ -95,7 +95,7 @@ export default function Hero() {
           {/* BUTTONS */}
           <div className="mt-8 flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center md:justify-start">
             <a
-              href="/resume.pdf"
+              href={process.env.PUBLIC_URL + "/resume.pdf"}
               download
               className="
                 px-7 py-3 rounded-lg bg-white text-black font-semibold
@@ -137,7 +137,7 @@ export default function Hero() {
             "
           >
             <img
-              src="/bharath.jpg"
+              src={process.env.PUBLIC_URL + "/bharath.jpg"}
               alt="Bharath Kumar"
               className="w-full h-full object-cover rounded-2xl"
             />
