@@ -8,14 +8,14 @@ export default function Projects() {
       desc: "NextHire-AI helps users track their job applications and compare their resume with job descriptions using AI-powered analysis.",
       link: "https://nexthire-ai.onrender.com",
       github: "https://github.com/btalasil/nexthire-ai",
-      img: "/project1.png",
+      img: process.env.PUBLIC_URL + "/project1.png",
     },
     {
       title: "Spotify UI",
       desc: "A front-end UI replica of Spotify designed using pure HTML and CSS, focusing on layout structure, responsive design, and modern visual styling.",
       link: "https://btalasil.github.io/spotify-web-player/",
       github: "https://github.com/btalasil/spotify-web-player",
-      img: "/project2.png",
+      img: process.env.PUBLIC_URL + "/project2.png",
     },
     {
       title: "ASL Alphabet Recognition",
