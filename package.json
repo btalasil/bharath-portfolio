@@ -1,7 +1,7 @@
 {
   "name": "bharath-pro-portfolio",
   "version": "1.0.0",
-  "homepage": "https://btalasil.github.io/bharath-portfolio/",
+  "homepage": "https://btalasil.github.io/bharath-portfolio",
   "private": true,
   "dependencies": {
     "@tsparticles/engine": "^3.9.1",
