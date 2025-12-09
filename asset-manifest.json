@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/bharath-portfolio/static/css/main.5ba17ffd.css",
-    "main.js": "/bharath-portfolio/static/js/main.dd1c9d97.js",
+    "main.css": "/bharath-portfolio/static/css/main.8e59370b.css",
+    "main.js": "/bharath-portfolio/static/js/main.a4ebd97e.js",
     "index.html": "/bharath-portfolio/index.html",
-    "main.5ba17ffd.css.map": "/bharath-portfolio/static/css/main.5ba17ffd.css.map",
-    "main.dd1c9d97.js.map": "/bharath-portfolio/static/js/main.dd1c9d97.js.map"
+    "main.8e59370b.css.map": "/bharath-portfolio/static/css/main.8e59370b.css.map",
+    "main.a4ebd97e.js.map": "/bharath-portfolio/static/js/main.a4ebd97e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ba17ffd.css",
-    "static/js/main.dd1c9d97.js"
+    "static/css/main.8e59370b.css",
+    "static/js/main.a4ebd97e.js"
   ]
 }
