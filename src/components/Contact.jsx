@@ -9,7 +9,7 @@ export default function Contact() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="relative px-6 py-28 min-h-screen overflow-hidden"
+      className="relative px-4 py-24 min-h-screen overflow-hidden"
     >
       {/* Soft Animated Background */}
       <motion.div
@@ -19,39 +19,41 @@ export default function Contact() {
         style={{ backgroundSize: "100% 200%" }}
       />
 
-      {/* Soft Glows */}
+      {/* Subtle Glow */}
       <motion.div
-        className="absolute top-24 left-1/2 -translate-x-1/2 w-[70%] h-[40%] bg-white/30 blur-[120px] opacity-40"
+        className="absolute top-32 left-1/2 -translate-x-1/2 w-[85%] h-[35%] bg-white/30 blur-[100px] opacity-40"
         animate={{ y: [0, -10, 0] }}
         transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
       />
 
-      <div className="relative max-w-xl mx-auto bg-white/90 backdrop-blur-md p-10 rounded-2xl shadow-xl border border-[#84A98C]/40">
+      <div className="relative max-w-md mx-auto bg-white/90 backdrop-blur-lg p-6 sm:p-10 rounded-2xl shadow-xl border border-[#84A98C]/40">
 
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="flex items-center justify-center gap-4 mb-12"
+          className="flex items-center justify-center gap-4 mb-10"
         >
-          <div className="w-12 h-1 bg-[#52796F] rounded-full"></div>
-          <h2 className="text-3xl font-semibold text-[#2F3E46]">Get In Touch</h2>
-          <div className="w-12 h-1 bg-[#52796F] rounded-full"></div>
+          <div className="w-10 h-1 bg-[#52796F] rounded-full"></div>
+          <h2 className="text-2xl sm:text-3xl font-semibold text-[#2F3E46]">
+            Get In Touch
+          </h2>
+          <div className="w-10 h-1 bg-[#52796F] rounded-full"></div>
         </motion.div>
 
         {/* Contact Items */}
-        <div className="space-y-6 text-[#354F52]">
+        <div className="space-y-5 text-[#354F52]">
 
           {/* Email */}
           <motion.div
-            whileHover={{ scale: 1.03, x: 5 }}
-            className="flex items-center gap-3 bg-[#F5F7F4] p-4 rounded-xl border border-[#84A98C]/30 cursor-pointer shadow-sm hover:shadow-md transition"
+            whileHover={{ scale: 1.02, x: 4 }}
+            className="flex items-center gap-3 bg-[#F5F7F4] p-4 rounded-xl border border-[#84A98C]/30 shadow-sm hover:shadow-md transition w-full break-all"
           >
-            <FaEnvelope size={22} className="text-[#52796F]" />
+            <FaEnvelope size={20} className="text-[#52796F]" />
             <a
               href="mailto:bharathkumartalasila02@gmail.com"
-              className="text-[#2F3E46] font-medium hover:underline"
+              className="text-[#2F3E46] font-medium hover:underline text-sm sm:text-base"
             >
               bharathkumartalasila02@gmail.com
             </a>
@@ -59,15 +61,15 @@ export default function Contact() {
 
           {/* LinkedIn */}
           <motion.div
-            whileHover={{ scale: 1.03, x: 5 }}
-            className="flex items-center gap-3 bg-[#F5F7F4] p-4 rounded-xl border border-[#84A98C]/30 cursor-pointer shadow-sm hover:shadow-md transition"
+            whileHover={{ scale: 1.02, x: 4 }}
+            className="flex items-center gap-3 bg-[#F5F7F4] p-4 rounded-xl border border-[#84A98C]/30 shadow-sm hover:shadow-md transition w-full break-all"
           >
-            <FaLinkedin size={22} className="text-[#52796F]" />
+            <FaLinkedin size={20} className="text-[#52796F]" />
             <a
               href="https://www.linkedin.com/in/bharath-kumar-talasila/"
               target="_blank"
               rel="noreferrer"
-              className="text-[#2F3E46] font-medium hover:underline"
+              className="text-[#2F3E46] font-medium hover:underline text-sm sm:text-base"
             >
               linkedin.com/in/bharath-kumar-talasila
             </a>
@@ -75,15 +77,15 @@ export default function Contact() {
 
           {/* GitHub */}
           <motion.div
-            whileHover={{ scale: 1.03, x: 5 }}
-            className="flex items-center gap-3 bg-[#F5F7F4] p-4 rounded-xl border border-[#84A98C]/30 cursor-pointer shadow-sm hover:shadow-md transition"
+            whileHover={{ scale: 1.02, x: 4 }}
+            className="flex items-center gap-3 bg-[#F5F7F4] p-4 rounded-xl border border-[#84A98C]/30 shadow-sm hover:shadow-md transition w-full break-all"
           >
-            <FaGithub size={22} className="text-[#52796F]" />
+            <FaGithub size={20} className="text-[#52796F]" />
             <a
               href="https://github.com/btalasil"
               target="_blank"
               rel="noreferrer"
-              className="text-[#2F3E46] font-medium hover:underline"
+              className="text-[#2F3E46] font-medium hover:underline text-sm sm:text-base"
             >
               github.com/btalasil
             </a>
