@@ -55,7 +55,7 @@ export default function Contact() {
               href="mailto:bharathkumartalasila02@gmail.com"
               className="text-[#2F3E46] font-medium hover:underline text-sm sm:text-base"
             >
-              bharathkumartalasila02@gmail.com
+              bharathkumartalasila28@gmail.com
             </a>
           </motion.div>
 

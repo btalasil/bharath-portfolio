@@ -67,7 +67,6 @@ export default function Hero() {
 
       {/* CONTENT */}
       <div className="relative z-10 max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-12 sm:gap-20 items-center py-28 sm:py-24">
-
         {/* LEFT CONTENT */}
         <motion.div
           initial={{ opacity: 0, x: -40 }}
@@ -85,11 +84,20 @@ export default function Hero() {
           </h1>
 
           {/* DESCRIPTION */}
-          <p className="mt-6 text-base sm:text-[1.15rem] text-white/95 max-w-md mx-auto md:mx-0 leading-relaxed font-light drop-shadow-[0_4px_14px_rgba(0,0,0,0.75)]">
-            I'm a MERN Stack Developer who enjoys building clean, fast, and
-            intuitive web applications. I work with React, Node.js, Express,
-            and MongoDB to create full-stack solutions that feel smooth and
-            perform well in the real world.
+          <p className="mt-6 text-base sm:text-[1.15rem] text-white/95 max-w-xl mx-auto md:mx-0 leading-relaxed font-light drop-shadow-[0_4px_14px_rgba(0,0,0,0.75)]">
+            I’m a full-stack engineer with around four years of experience
+            building production web platforms across healthcare, finance, and
+            retail systems. I work primarily with Java, Spring Boot, and
+            Node.js to design scalable backend services and microservices, while
+            building modern user interfaces using React, Angular, and
+            TypeScript.
+            <br />
+            <br />
+            My focus is on API-driven architectures, secure authentication, and
+            distributed systems, along with optimizing data layers using
+            PostgreSQL, MongoDB, and DynamoDB. I also deploy and scale
+            applications in AWS and Azure, containerize services with Docker,
+            and automate delivery through CI/CD pipelines.
           </p>
 
           {/* BUTTONS */}
@@ -143,7 +151,6 @@ export default function Hero() {
             />
           </div>
         </motion.div>
-
       </div>
     </section>
   );

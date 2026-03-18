@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { SiChase, SiNvidia, SiOracle } from "react-icons/si";
+import { SiAmazonwebservices, SiChase, SiNvidia, SiOracle } from "react-icons/si";
 
 export default function Certifications() {
   const certs = [
@@ -25,6 +25,14 @@ export default function Certifications() {
       icon: <SiOracle className="text-red-600 text-3xl sm:text-4xl md:text-5xl" />,
       url: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=898F070B85726914C763BB704BF1CB8593592772E88E97734142FE578DB87EA6#",
     },
+    {
+      title: "AWS Certified Solutions Architect – Associate",
+      issuer: "Amazon Web Services",
+      year: "2026",
+      icon: <SiAmazonwebservices className="text-orange-500 text-3xl sm:text-4xl md:text-5xl" />,
+      url: "https://www.credly.com/badges/46b762fc-1246-45b2-8bee-eab31f706d30/linked_in_profile",
+    },
+
   ];
 
   return (
